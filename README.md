@@ -1,9 +1,7 @@
 # Stochastic-Portfolio-Optimization-using-Monte-Carlo-Simulations
-# Stochastic Portfolio Optimization using Monte Carlo Simulations
 
-**Self Project | May 2025 – July 2025**
 
-## 📌 Overview
+##  Overview
 
 This project focuses on **stochastic portfolio optimization of defense-sector equities** using large-scale **Monte Carlo simulations**. The objective was to identify an optimal portfolio allocation that maximizes expected returns while maintaining an acceptable level of downside risk.
 
@@ -17,7 +15,7 @@ The resulting optimized portfolio generated an approximate **150% return**, comp
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 The primary objective of this project was to develop a quantitative portfolio allocation strategy for **defense-sector equities** that could:
 
@@ -31,7 +29,7 @@ The project uses stochastic simulation rather than relying solely on historical 
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 The overall methodology consisted of the following stages:
 
@@ -78,7 +76,7 @@ The analysis was performed using historical market observations to estimate the 
 
 ---
 
-## 📈 2. Return Calculation
+## 2. Return Calculation
 
 Daily percentage returns were calculated from historical closing prices.
 
@@ -98,7 +96,7 @@ The resulting return series was used to estimate the expected return and risk ch
 
 ---
 
-## 📐 3. Portfolio Return
+##  3. Portfolio Return
 
 For a portfolio containing \(n\) assets, the portfolio return is calculated as:
 
@@ -122,7 +120,7 @@ with non-negative weights used when implementing a long-only portfolio constrain
 
 ---
 
-## 🎲 4. Monte Carlo Simulation
+##  4. Monte Carlo Simulation
 
 The core of the project was a **Monte Carlo simulation framework**.
 
@@ -258,12 +256,12 @@ and:
 $$
 w_i\geq0
 $$
-
+image
 The final portfolio was selected based on its overall risk-return characteristics.
 
 ---
 
-# 📊 Results
+#  Results
 
 The optimized strategy produced an approximate return of:
 
@@ -287,7 +285,7 @@ The optimized portfolio demonstrated an approximate **25 percentage-point return
 
 ---
 
-# 📈 Key Findings
+#  Key Findings
 
 ### 1. Large-scale simulation improves portfolio exploration
 
@@ -300,7 +298,7 @@ A portfolio with the highest expected return may also have significantly higher 
 Therefore, the analysis incorporated multiple risk metrics rather than optimizing solely for returns.
 
 ### 3. Risk-adjusted evaluation provides better insight
-
+image
 The **Sharpe Ratio** helped evaluate whether additional returns were justified by the associated volatility.
 
 ### 4. Tail-risk measures are important
@@ -313,7 +311,7 @@ The optimized portfolio generated approximately **150% returns**, compared with 
 
 ---
 
-# 🗂️ Project Structure
+#  Project Structure
 
 A suggested repository structure is:
 
@@ -351,7 +349,7 @@ Stochastic-Portfolio-Optimization/
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Usedimage
 
 | Technology                 | Purpose                                   |
 | -------------------------- | ----------------------------------------- |
@@ -397,7 +395,7 @@ Open the notebooks inside the `notebooks/` directory to reproduce the analysis.
 
 ---
 
-# 📦 Requirements
+#  Requirements
 
 Example `requirements.txt`:
 
@@ -448,7 +446,7 @@ Example conceptual visualization:
 
 ---
 
-# 🔍 Reproducibility
+#  Reproducibility
 
 The analysis can be reproduced by:
 
@@ -470,7 +468,7 @@ np.random.seed(42)
 
 ---
 
-# ⚠️ Limitations
+# Limitations
 
 The analysis has several limitations:
 
@@ -486,7 +484,7 @@ Therefore, the results should be interpreted as a **quantitative research/backte
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 Several extensions could make the model more robust:
 
@@ -532,7 +530,7 @@ Evaluate portfolio performance under extreme historical scenarios and hypothetic
 
 ---
 
-# 📚 Key Concepts
+# Key Concepts
 
 This project demonstrates practical application of:
 
@@ -550,29 +548,3 @@ This project demonstrates practical application of:
 
 ---
 
-# 👤 Author
-
-**Hari Sen**
-
-B.Tech / Engineering Student
-
-Interested in:
-
-* Quantitative Finance
-* Data Analytics
-* Machine Learning
-* Portfolio Optimization
-* Financial Risk Management
-* Product Management
-
----
-
-# ⭐ Disclaimer
-
-This project is intended for **educational and research purposes only**. The historical/backtested results presented in this repository do not constitute financial advice or a recommendation to buy or sell any security. Past performance does not guarantee future results.
-
----
-
-## ⭐ If you find this project useful
-
-Feel free to **star ⭐ the repository** and explore the notebooks to understand the complete Monte Carlo portfolio optimization workflow.
