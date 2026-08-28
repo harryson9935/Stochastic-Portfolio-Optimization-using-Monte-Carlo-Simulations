@@ -1,0 +1,13 @@
+Metric,Optimized Portfolio (Max Sharpe),Benchmark
+Number of Simulations,"1,000,000",-
+Expected Annual Return (from MC),20.86%,-
+Expected Annual Volatility (from MC),27.76%,-
+Sharpe Ratio (from MC),0.499,-
+Backtested Total Return (full period),136.9%,128.5%
+Backtested Annualized Return,23.19%,22.13%
+Backtested Annualized Volatility,27.74%,15.76%
+1-Day Historical VaR (95%),2.81%,1.56%
+1-Day Historical CVaR (95%),3.55%,1.92%
+"Annualized VaR (95%, sqrt-time scaled)",44.54%,24.69%
+"Annualized CVaR (95%, sqrt-time scaled)",56.32%,30.48%
+Maximum Drawdown,-33.65%,-12.44%
